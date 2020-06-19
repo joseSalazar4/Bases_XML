@@ -1,0 +1,56 @@
+<Operaciones_por_Dia>
+	<OperacionDia fecha="2020-01-30">
+		<Propiedad NumFinca="3206723" Valor="128964324.00" Direccion="Calle Vargas - Calle Kizarrá 300 m d la izquierda"/>
+		<Propiedad NumFinca="2346431" Valor="29540605.00" Direccion="San Pedro, Condominio Residencial Vista del Valle"/>
+		<Propiedad NumFinca="1565045" Valor="42286295.55" Direccion="Arenal, 500 m Este de la iglesia católica, cita"/>
+		<Propiedad NumFinca="3107084" Valor="61452600.00" Direccion="l Residencial Villas Dulce Nombre Filial N°11"/>
+		<Propietario Nombre="Ferrer S.A." TipoDocIdentidad="4" identificacion="301659662" />
+		<Propietario Nombre="Arenal ART" TipoDocIdentidad="4" identificacion="301790528" />
+		<PersonaJuridica docidPersonaJuridica="301659662" TipDocIdPJ="4"  DocidRepresentante="282173820" Nombre="Daniela Parra Ferrer" TipDocIdRepresentante="1" />
+		<PersonaJuridica docidPersonaJuridica="301116564" TipDocIdPJ="4"  DocidRepresentante="450541446" Nombre="Gabriel Soriano Prado" TipDocIdRepresentante="1" />
+		<Propietario Nombre="DIEGO ARMANDO RAMIREZ MATA" TipoDocIdentidad="1" identificacion="110670556" />
+		<PropiedadVersusPropietario NumFinca="3107084" identificacion="301659662"/>
+		<PropiedadVersusPropietario NumFinca="1565045" identificacion="301790528"/>
+		<ConceptoCobroVersusPropiedad idcobro="9" NumFinca="3107084"/>
+		<ConceptoCobroVersusPropiedad idcobro="9" NumFinca="1565045"/>
+	</OperacionDia>
+	<OperacionDia fecha="2020-01-31">
+		<Propiedad NumFinca="4158692" Valor="25315651" Direccion="Manzanar, 532 m Noreste."/>
+		<Propiedad NumFinca="6526774" Valor="17817015" Direccion="Canoas, 800 m Sur."/>
+		<Propiedad NumFinca="9782331" Valor="11499439" Direccion="Cementerio de Santa Rosa, 420 m Este."/>
+		<Propiedad NumFinca="2888543" Valor="16615152" Direccion="Bri-Bri Centro, 99 m Noroeste."/>
+		<Propiedad NumFinca="3178673" Valor="10503725" Direccion=" Central Electrica, 730 m Noreste."/>
+		<Propiedad NumFinca="2186347" Valor="8695554" Direccion="Plantel de COPRESA, 34 m Noroeste."/>
+		<Propiedad NumFinca="7040783" Valor="19085887" Direccion="ITEC, 665 m Sur."/>
+		<Propiedad NumFinca="1042185" Valor="17303021" Direccion=" AM-PM, 519 m Oeste."/>
+		<Propiedad NumFinca="1424417" Valor="9478720" Direccion="Manzanar, 283 m Noreste."/>
+		<Propietario Nombre="Nicolás Vicente Calvo" TipoDocIdentidad="1" identificacion="603871025" />
+		<Propietario Nombre="Triana Soler Mata" TipoDocIdentidad="2" identificacion="897719866" />
+		<Propietario Nombre="Pablo Galan Vera" TipoDocIdentidad="2" identificacion="863863098" />
+		<Propietario Nombre="Elena Gonzalez Exposito" TipoDocIdentidad="1" identificacion="116071283" />
+		<Propietario Nombre="Ainara Corral Nuñez" TipoDocIdentidad="1" identificacion="533728904" />
+		<Propietario Nombre="Aitor Blanco Nuñez" TipoDocIdentidad="1" identificacion="339653843" />
+		<Propietario Nombre="Manuel Blazquez Rios" TipoDocIdentidad="1" identificacion="361597351" />
+		<Propietario Nombre="Martín Mora Torre" TipoDocIdentidad="1" identificacion="596080433" />
+		<Propietario Nombre="Adam Rio Caballero" TipoDocIdentidad="2" identificacion="879915260" />
+		<PropiedadVersusPropietario NumFinca="4158692" identificacion="603871025"/>
+		<PropiedadVersusPropietario NumFinca="6526774" identificacion="897719866"/>
+		<PropiedadVersusPropietario NumFinca="9782331" identificacion="863863098"/>
+		<PropiedadVersusPropietario NumFinca="2888543" identificacion="116071283"/>
+		<PropiedadVersusPropietario NumFinca="3178673" identificacion="533728904"/>
+		<PropiedadVersusPropietario NumFinca="2186347" identificacion="339653843"/>
+		<PropiedadVersusPropietario NumFinca="7040783" identificacion="361597351"/>
+		<PropiedadVersusPropietario NumFinca="1042185" identificacion="596080433"/>
+		<PropiedadVersusPropietario NumFinca="1424417" identificacion="879915260"/>
+		<ConceptoCobroVersusPropiedad idcobro="5" NumFinca="4158692"/>
+		<ConceptoCobroVersusPropiedad idcobro="3" NumFinca="6526774"/>
+		<ConceptoCobroVersusPropiedad idcobro="5" NumFinca="9782331"/>
+		<ConceptoCobroVersusPropiedad idcobro="3" NumFinca="2888543"/>
+		<ConceptoCobroVersusPropiedad idcobro="2" NumFinca="3178673"/>
+		<ConceptoCobroVersusPropiedad idcobro="5" NumFinca="2186347"/>
+		<ConceptoCobroVersusPropiedad idcobro="6" NumFinca="7040783"/>
+		<ConceptoCobroVersusPropiedad idcobro="6" NumFinca="1042185"/>
+		<ConceptoCobroVersusPropiedad idcobro="2" NumFinca="1424417"/>
+	</OperacionDia>
+
+</Operaciones_por_Dia>
