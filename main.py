@@ -27,7 +27,7 @@ def modificarArchivo():
 
     # tree = et.parse('Op_TESTING.xml', parser)
 
-    tree = et.parse('Op_TESTING.xml', parser)
+    tree = et.parse('Operaciones.xml', parser)
     root = tree.getroot()
 
     # Buscamos Fincas y su valor
@@ -52,24 +52,38 @@ def modificarArchivo():
                 #listaPropiedadesRecAgua.append([propiedad, fecha, 0])
 
     # Febrero
-
-    for n in range(3):
+    # Worked fine
+    listaPropiedadesRecAgua.pop(0)
+    listaPropiedadesRecAgua.pop(0)
+    """ 
+    for n in range(0, 3):
         for propiedad in listaPropiedadesRecAgua[0]:
             fechaBuscada = propiedad[1]
             listaAux = list(fechaBuscada)
             listaAux[6] = str(int(listaAux[6]) + 1)
             fechaBuscada = "".join(listaAux)
-            print(fechaBuscada)
+            propiedad[1] = fechaBuscada
             nodoOperacion = buscarNodo(fechaBuscada, root)
             lectura = randint(300, 500)
             propiedad[2] += lectura
             cambioFinca = et.Element("TransConsumo", id="1", LecturaM3=str(propiedad[2]), descripcion="Cobro Mensual",
                                      NumFinca=str(propiedad[0]))
             nodoOperacion.insert(len(nodoOperacion), cambioFinca)
-
+    """
     # Marzo
-    #for propiedad in listaPropiedadesRecAgua[1]:
-       # print("Tengala Adentro")
+    for n in range(0, 3):
+        for propiedad in listaPropiedadesRecAgua[1]:
+            fechaBuscada = propiedad[1]
+            listaAux = list(fechaBuscada)
+            listaAux[6] = str(int(listaAux[6]) + 1)
+            fechaBuscada = "".join(listaAux)
+            propiedad[1] = fechaBuscada
+            nodoOperacion = buscarNodo(fechaBuscada, root)
+            lectura = randint(300, 500)
+            propiedad[2] += lectura
+            cambioFinca = et.Element("TransConsumo", id="1", LecturaM3=str(propiedad[2]), descripcion="Cobro Mensual",
+                                     NumFinca=str(propiedad[0]))
+            nodoOperacion.insert(len(nodoOperacion), cambioFinca)
 
     # Abril
     #for propiedad in listaPropiedadesRecAgua[2]:
@@ -90,11 +104,11 @@ def modificarArchivo():
         """
 
     # Esto genera el archivo
-   # s = et.tostring(root, pretty_print=True)
-    #print(s.decode())
+    s = et.tostring(root, pretty_print=True)
+    print(s.decode())
 
     # Esribir
-    # tree.write('output.xml', pretty_print=True)
+    tree.write('output.xml', pretty_print=True)
 
 
 modificarArchivo()
