@@ -27,7 +27,7 @@ def modificarArchivo():
 
     # tree = et.parse('Op_TESTING.xml', parser)
 
-    tree = et.parse('Operaciones.xml', parser)
+    tree = et.parse('output.xml', parser)
     root = tree.getroot()
 
     # Buscamos Fincas y su valor
@@ -36,27 +36,60 @@ def modificarArchivo():
     mes = "2"
 
     # Buscamos Fincas y su valor
-    matrizValoresFinca = []
+    matrizFinca = []
     listaFechas = []
 
     for operacionDia in root.findall('OperacionDia'):
         fecha = operacionDia.get('fecha')
         listaFechas.append(fecha)
-        for propiedad in operacionDia.iter('Propiedad'):
-            valor = propiedad.get('Valor')
-            propiedad = propiedad.get('NumFinca')
-            matrizValoresFinca.append([propiedad, valor])
 
+        for transConsumo in operacionDia.iter('TransConsumo'):
+            valorM3 = transConsumo.get('LecturaM3')
+            propiedad = transConsumo.get('NumFinca')
+            matrizFinca.append([propiedad, valorM3])
+            fechaDeCambio = listaFechas[randint(0, len(listaFechas) - 1)]
+
+            if randint(1, 100) > 80 and len(matrizFinca) > 1:
+                #CHeck corte y eso 
+                tipo = "ESTO DEBE SER NUMERO"
+                numeroFinca = randint(1, len(matrizFinca) - 1)
+                if numeroFinca == propiedad:
+                    break
+                fincaElegida = matrizFinca.pop(numeroFinca)
+                lectura = int(fincaElegida[1])
+                fincaElegida[1] = str((randint(lectura // 20, lectura // 10)))
+                cambioFinca = et.Element("Pago", TipoRecibo=str(tipo),NumFinca=fincaElegida[0])
+                operacionDia.insert(len(operacionDia), cambioFinca)
+
+    """
+    for operacionDia in root.findall('OperacionDia'):
+        fecha = operacionDia.get('fecha')
+        listaFechas.append(fecha)
+
+        for transConsumo in operacionDia.iter('TransConsumo'):
+            valorM3 = transConsumo.get('LecturaM3')
+            propiedad = transConsumo.get('NumFinca')
+            matrizLecturaFinca.append([propiedad, valorM3])
             fechaDeCambio = listaFechas[randint(0, len(listaFechas) - 1)]
             # Esto genera los cambios en las propiedades
             #  !Para Activar los triggers!
-            if randint(1, 100) > 95 and fechaDeCambio != fecha:
-                numeroFinca = randint(1, len(matrizValoresFinca) - 1)
-                fincaElegida = matrizValoresFinca.pop(numeroFinca)
-                valorActual = int(float(fincaElegida[1]))
-                nuevoValor = valorActual + (randint(int(valorActual / 8), int(valorActual / 4))
-                                            * ((-1) ** randint(1, 2)))
-                cambioFinca = et.Element("CambioPropiedad", NumFinca=fincaElegida[0], NuevoValor=str(nuevoValor))
+
+            if randint(1, 100) > 80 and len(matrizLecturaFinca) > 1:
+                razon = "Lectura errónea"
+                tipo = 3
+                numeroFinca = randint(1, len(matrizLecturaFinca) - 1)
+                if numeroFinca == propiedad:
+                    break
+                fincaElegida = matrizLecturaFinca.pop(numeroFinca)
+                suma = randint(1, 2)
+                lectura = int(fincaElegida[1])
+                if suma == 1:
+                    razon = "Reclamo de cliente"
+                    tipo = 2
+                fincaElegida[1] = str((randint(lectura // 20, lectura // 10)))
+                cambioFinca = et.Element("TransConsumo", id=str(tipo), LecturaM3=fincaElegida[1],
+                                         descripcion=razon,
+                                         NumFinca=fincaElegida[0])
                 operacionDia.insert(len(operacionDia), cambioFinca)
 
     for operacionDia in root.findall('OperacionDia'):
@@ -72,9 +105,7 @@ def modificarArchivo():
             if relacion.get('idcobro') == "1":
                 propiedad = relacion.get('NumFinca')
                 listaActualMes.append([propiedad, fecha, 0])
-                #listaPropiedadesRecAgua.append([propiedad, fecha, 0])
-
-
+                # listaPropiedadesRecAgua.append([propiedad, fecha, 0])
 
     # Febrero
     # Worked fine
@@ -136,14 +167,13 @@ def modificarArchivo():
                                      NumFinca=str(propiedad[0]))
             nodoOperacion.insert(len(nodoOperacion), cambioFinca)
 
-
-
+    """
     # Esto genera el archivo
     s = et.tostring(root, pretty_print=True)
     print(s.decode())
-
+    print("termine")
     # Esribir
-    tree.write('output.xml',  encoding='utf-8' ,pretty_print=True)
+    tree.write('output2.xml',  encoding='utf-8', pretty_print=True)
 
 
 modificarArchivo()
