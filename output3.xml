@@ -93,7 +93,7 @@
     <CambioPropiedad NumFinca="2512174" NuevoValor="58608884"/>
   </OperacionDia>
   <OperacionDia fecha="2020-02-01"> 
-	</OperacionDia>
+  </OperacionDia>
   <OperacionDia fecha="2020-02-02">
 
 	</OperacionDia>
@@ -175,7 +175,7 @@
     <ConceptoCobroVersusPropiedad idcobro="9" NumFinca="2758490"/>
   </OperacionDia>
   <OperacionDia fecha="2020-02-07">
-    <Usuario Nombre="EMadrigal" password="bgNH1"/>
+    <Usuario Nombre="EMadrigal" password="bgNH1" tipo= "cliente"/>
     <Propiedad NumFinca="1176180" Valor="12348471.20" Direccion="Condominio Mar del Plata, Filial 186"/>
     <Propiedad NumFinca="1394522" Valor="14704765.00" Direccion="Mata Plátano, Urbanización La Estefanía (465 m. oeste del Templo y 100 m. sur)"/>
     <PropiedadVersusPropietario NumFinca="1176180" identificacion="304110067"/>
@@ -192,9 +192,9 @@
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="1394522"/>
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="1394522"/>
   </OperacionDia>
-  <OperacionDia fecha="2020-02-08"> 
+  <OperacionDia fecha="2020-02-08">
 	</OperacionDia>
-  <OperacionDia fecha="2020-02-09"> 
+  <OperacionDia fecha="2020-02-09">
 	</OperacionDia>
   <OperacionDia fecha="2020-02-10">
     <Propiedad NumFinca="1750401" Valor="12971280.00" Direccion="Condominio Terrazas del Este, de la Iglesia de San Rafael 360 m. Este. "/>
@@ -218,7 +218,7 @@
     <Propietario Nombre="FUNDECA" TipoDocIdentidad="4" identificacion="3102456541"/>
     <PersonaJuridica docidPersonaJuridica="3102456541" DocidRepresentante="110201818" Nombre="LOLA PEREZ ROJAS" TipDocIdRepresentante="1"/>
     <PropiedadVersusPropietario NumFinca="2291223" identificacion="3102456541"/>
-    <Usuario Nombre="CPenalla" password="tXfIF"/>
+    <Usuario Nombre="CPenalla" password="tXfIF" tipo= "cliente"/>
     <UsuarioVersusPropiedad NumFinca="1423800" nombreUsuario="CPenalla"/>
     <UsuarioVersusPropiedad NumFinca="1568495" nombreUsuario="CPenalla"/>
     <UsuarioVersusPropiedad NumFinca="2291223" nombreUsuario="CPenalla"/>
@@ -349,9 +349,9 @@
     <PropiedadVersusPropietario NumFinca="1476188" identificacion="116540323"/>
     <PropiedadVersusPropietario NumFinca="2101885" identificacion="116540323"/>
     <PropiedadVersusPropietario NumFinca="4182870" identificacion="116540323"/>
-    <Usuario Nombre="LDiaz" password="2o8Gd"/>
-    <Usuario Nombre="EHernandez" password="v65XB"/>
-    <Usuario Nombre="KPerez" password="j3VS2"/>
+    <Usuario Nombre="LDiaz" password="2o8Gd" tipo="cliente"/>
+    <Usuario Nombre="EHernandez" password="v65XB" tipo="cliente"/>
+    <Usuario Nombre="KPerez" password="j3VS2" tipo="cliente"/>
     <UsuarioVersusPropiedad NumFinca="1236736" nombreUsuario="LDiaz"/>
     <UsuarioVersusPropiedad NumFinca="1476188" nombreUsuario="LDiaz"/>
     <UsuarioVersusPropiedad NumFinca="2101885" nombreUsuario="LDiaz"/>
@@ -445,9 +445,9 @@
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="6883678"/>
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="4867842"/>
   </OperacionDia>
-  <OperacionDia fecha="2020-02-15"> 
+  <OperacionDia fecha="2020-02-15">
 	</OperacionDia>
-  <OperacionDia fecha="2020-02-16"> 
+  <OperacionDia fecha="2020-02-16">
 	</OperacionDia>
   <OperacionDia fecha="2020-02-17">
     <Propiedad NumFinca="1201330" Valor="11440644.00" Direccion="Urbanización La Pacífica, lote 40-Z"/>
@@ -575,7 +575,7 @@
     <PropiedadVersusPropietario NumFinca="4203725" identificacion="303580304"/>
     <PropiedadVersusPropietario NumFinca="1514282" identificacion="113360365"/>
     <PropiedadVersusPropietario NumFinca="7605510" identificacion="113360365"/>
-    <Usuario Nombre="DCornero" password="MLo4Z"/>
+    <Usuario Nombre="DCornero" password="MLo4Z" tipo="cliente"/>
     <UsuarioVersusPropiedad NumFinca="4203725" nombreUsuario="DCornero"/>
     <UsuarioVersusPropiedad NumFinca="1480840" nombreUsuario="DCornero"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="1480840"/>
@@ -603,8 +603,8 @@
     <PropiedadVersusPropietario NumFinca="2465209" identificacion="3102597410"/>
     <PropiedadVersusPropietario NumFinca="4108772" identificacion="3102597410"/>
     <PersonaJuridica docidPersonaJuridica="3102597410" DocidRepresentante="113360365" Nombre="TRISTAN ELIDO BODRA JIMENEZ" TipDocIdRepresentante="1"/>
-    <Usuario Nombre="RSalas" password="e9mFa"/>
-    <Usuario Nombre="PVindas" password="3ktBp"/>
+    <Usuario Nombre="RSalas" password="e9mFa" tipo="cliente"/>
+    <Usuario Nombre="PVindas" password="3ktBp" tipo="cliente"/>
     <UsuarioVersusPropiedad NumFinca="1527660" nombreUsuario="RSalas"/>
     <UsuarioVersusPropiedad NumFinca="7738110" nombreUsuario="RSalas"/>
     <UsuarioVersusPropiedad NumFinca="2465209" nombreUsuario="PVindas"/>
@@ -642,9 +642,9 @@
     <Propietario Nombre="Fe De Calle" TipoDocIdentidad="4" identificacion="3101375604"/>
     <PropiedadVersusPropietario NumFinca="4204033" identificacion="3101375604"/>
     <PersonaJuridica docidPersonaJuridica="3101375604" DocidRepresentante="111450435" Nombre="SOFIA MATA SOLANO" TipDocIdRepresentante="1"/>
-    <Usuario Nombre="FChaves" password="5YwM2"/>
-    <Usuario Nombre="AAlfaro" password="fwZwI"/>
-    <Usuario Nombre="TJimenez" password="pmGht"/>
+    <Usuario Nombre="FChaves" password="5YwM2" tipo="cliente"/>
+    <Usuario Nombre="AAlfaro" password="fwZwI" tipo="cliente"/>
+    <Usuario Nombre="TJimenez" password="pmGht" tipo="cliente"/>
     <UsuarioVersusPropiedad NumFinca="2415723" nombreUsuario="FChaves"/>
     <UsuarioVersusPropiedad NumFinca="1528789" nombreUsuario="FChaves"/>
     <UsuarioVersusPropiedad NumFinca="2405935" nombreUsuario="TJimenez"/>
@@ -659,9 +659,9 @@
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="2416612"/>
     <ConceptoCobroVersusPropiedad idcobro="5" NumFinca="7799701"/>
   </OperacionDia>
-  <OperacionDia fecha="2020-02-22"> 
+  <OperacionDia fecha="2020-02-22">
 	</OperacionDia>
-  <OperacionDia fecha="2020-02-23"> 
+  <OperacionDia fecha="2020-02-23">
 	</OperacionDia>
   <OperacionDia fecha="2020-02-24">
     <Propiedad NumFinca="2789388" Valor="22694926" Direccion="Bar las delicias, 652 m Suroeste."/>
@@ -747,7 +747,6 @@
     <CambioPropiedad NumFinca="7539590" NuevoValor="13157023"/>
   </OperacionDia>
   <OperacionDia fecha="2020-02-25">
-
 	</OperacionDia>
   <OperacionDia fecha="2020-02-26">
     <Propiedad NumFinca="7825963" Valor="26637201.00" Direccion="Astua Pirie, del antiguo Bar Montiel, 355 m Este, mano derecha Costado Este del taller de ebanistería"/>
@@ -774,7 +773,7 @@
     <Propietario Nombre="CTPA" TipoDocIdentidad="4" identificacion="3101359071"/>
     <PropiedadVersusPropietario NumFinca="1340644" identificacion="3101359071"/>
     <PersonaJuridica docidPersonaJuridica="3101359071" DocidRepresentante="206130789" Nombre="IGNACIO BOGARIN MARIN" TipDocIdRepresentante="1"/>
-    <Usuario Nombre="JFallas" password="19Nph"/>
+    <Usuario Nombre="JFallas" password="19Nph" tipo="cliente"/>
     <UsuarioVersusPropiedad NumFinca="7825963" nombreUsuario="AAlfaro"/>
     <UsuarioVersusPropiedad NumFinca="1230183" nombreUsuario="JFallas"/>
     <UsuarioVersusPropiedad NumFinca="3130126" nombreUsuario="JFallas"/>
@@ -816,7 +815,7 @@
     <Propietario Nombre="Coca-cola" TipoDocIdentidad="4" identificacion="3101574107"/>
     <PropiedadVersusPropietario NumFinca="1597586" identificacion="3101574107"/>
     <PersonaJuridica docidPersonaJuridica="3101574107" DocidRepresentante="110590391" Nombre="MARIE PAZ CHAPMAN LACHNER" TipDocIdRepresentante="1"/>
-    <Usuario Nombre="MBarquero" password="qTtZx"/>
+    <Usuario Nombre="MBarquero" password="qTtZx" tipo="cliente"/>
     <UsuarioVersusPropiedad NumFinca="1579482" nombreUsuario="MBarquero"/>
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="5109920"/>
     <ConceptoCobroVersusPropiedad idcobro="7" NumFinca="1579482"/>
@@ -852,7 +851,7 @@
     <Propietario Nombre="Dos Pinos" TipoDocIdentidad="4" identificacion="3102854321"/>
     <PersonaJuridica docidPersonaJuridica="3102854321" DocidRepresentante="105940276" Nombre="MARCO HIDALGO MACRE" TipDocIdRepresentante="1"/>
     <PropiedadVersusPropietario NumFinca="1136447" identificacion="3102854321"/>
-    <Usuario Nombre="IBogarin" password="FL8bA5"/>
+    <Usuario Nombre="IBogarin" password="FL8bA5" tipo="cliente"/>
     <UsuarioVersusPropiedad NumFinca="7804860" nombreUsuario="IBogarin"/>
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="1118180"/>
     <ConceptoCobroVersusPropiedad idcobro="8" NumFinca="7148454"/>
@@ -862,9 +861,9 @@
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="1596904"/>
     <CambioPropiedad NumFinca="4400689" NuevoValor="4824953"/>
   </OperacionDia>
-  <OperacionDia fecha="2020-02-29"> 
+  <OperacionDia fecha="2020-02-29">
 	</OperacionDia>
-  <OperacionDia fecha="2020-03-01"> 
+  <OperacionDia fecha="2020-03-01">
 	</OperacionDia>
   <OperacionDia fecha="2020-03-02">
     <Propiedad NumFinca="4515090" Valor="52548750.00" Direccion="450m Oeste y 45 m Sur del Cementerio de Aguas Zarcas, o 45 m Sur de cabinas Adonay, lote al fondo de servidumbre de paso"/>
@@ -879,7 +878,7 @@
     <PropiedadVersusPropietario NumFinca="2463803" identificacion="114990434"/>
     <PropiedadVersusPropietario NumFinca="3623306" identificacion="114990434"/>
     <PropiedadVersusPropietario NumFinca="7965590" identificacion="114990434"/>
-    <Usuario Nombre="SMiranda" password="wU6kB"/>
+    <Usuario Nombre="SMiranda" password="wU6kB" tipo= "cliente"/>
     <UsuarioVersusPropiedad NumFinca="7864479" nombreUsuario="SMiranda"/>
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="4515090"/>
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="7864479"/>
@@ -1052,9 +1051,10 @@
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="3336538"/>
   </OperacionDia>
   <OperacionDia fecha="2020-03-07">
-    <TransConsumo id="1" LecturaM3="397" descripcion="Lectura Mensual" NumFinca="1176180"/>
-    <TransConsumo id="1" LecturaM3="470" descripcion="Lectura Mensual" NumFinca="1394522"/>
+    <TransConsumo id="1" LecturaM3="397" descripcion="Cobro Mensual" NumFinca="1176180"/>
+    <TransConsumo id="1" LecturaM3="470" descripcion="Cobro Mensual" NumFinca="1394522"/>
     <Pago TipoRecibo="4" NumFinca="2246405"/>
+    <Pago TipoRecibo="4" NumFinca="1176180"/>
     <Pago TipoRecibo="4" NumFinca="1394522"/>
     <Pago TipoRecibo="4" NumFinca="4121713"/>
     <Pago TipoRecibo="4" NumFinca="1420570"/>
@@ -1169,12 +1169,12 @@
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="4325136"/>
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="2510451"/>
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="8583838"/>
-    <TransConsumo id="1" LecturaM3="309" descripcion="Lectura Mensual" NumFinca="1750401"/>
-    <TransConsumo id="1" LecturaM3="396" descripcion="Lectura Mensual" NumFinca="4121713"/>
-    <TransConsumo id="1" LecturaM3="320" descripcion="Lectura Mensual" NumFinca="1605224"/>
-    <TransConsumo id="1" LecturaM3="459" descripcion="Lectura Mensual" NumFinca="1423800"/>
-    <TransConsumo id="1" LecturaM3="435" descripcion="Lectura Mensual" NumFinca="1568495"/>
-    <TransConsumo id="1" LecturaM3="482" descripcion="Lectura Mensual" NumFinca="2291223"/>
+    <TransConsumo id="1" LecturaM3="309" descripcion="Cobro Mensual" NumFinca="1750401"/>
+    <TransConsumo id="1" LecturaM3="396" descripcion="Cobro Mensual" NumFinca="4121713"/>
+    <TransConsumo id="1" LecturaM3="320" descripcion="Cobro Mensual" NumFinca="1605224"/>
+    <TransConsumo id="1" LecturaM3="459" descripcion="Cobro Mensual" NumFinca="1423800"/>
+    <TransConsumo id="1" LecturaM3="435" descripcion="Cobro Mensual" NumFinca="1568495"/>
+    <TransConsumo id="1" LecturaM3="482" descripcion="Cobro Mensual" NumFinca="2291223"/>
     <TransConsumo id="2" LecturaM3="19" descripcion="Reclamo de cliente" NumFinca="1750401"/>
     <Pago TipoRecibo="8" NumFinca="1420570"/>
     <Pago TipoRecibo="8" NumFinca="2425954"/>
@@ -1194,7 +1194,7 @@
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="3159179"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="7321231"/>
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="3312213"/>
-    <TransConsumo id="1" LecturaM3="497" descripcion="Lectura Mensual" NumFinca="4782873"/>
+    <TransConsumo id="1" LecturaM3="497" descripcion="Cobro Mensual" NumFinca="4782873"/>
   </OperacionDia>
   <OperacionDia fecha="2020-03-12">
     <Propiedad NumFinca="3610606" Valor="3479049" Direccion=" Maxi Pali, 576 m Suroeste."/>
@@ -1222,9 +1222,9 @@
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="3407892"/>
     <ConceptoCobroVersusPropiedad idcobro="3" NumFinca="8558350"/>
     <CambioPropiedad NumFinca="8698761" NuevoValor="24263129"/>
-    <TransConsumo id="1" LecturaM3="445" descripcion="Lectura Mensual" NumFinca="6325448"/>
-    <TransConsumo id="1" LecturaM3="424" descripcion="Lectura Mensual" NumFinca="6766683"/>
-    <TransConsumo id="1" LecturaM3="433" descripcion="Lectura Mensual" NumFinca="6736147"/>
+    <TransConsumo id="1" LecturaM3="445" descripcion="Cobro Mensual" NumFinca="6325448"/>
+    <TransConsumo id="1" LecturaM3="424" descripcion="Cobro Mensual" NumFinca="6766683"/>
+    <TransConsumo id="1" LecturaM3="433" descripcion="Cobro Mensual" NumFinca="6736147"/>
     <Pago TipoRecibo="3" NumFinca="6526774"/>
     <Pago TipoRecibo="3" NumFinca="2888543"/>
     <Pago TipoRecibo="3" NumFinca="4569644"/>
@@ -1276,17 +1276,17 @@
     <PropiedadVersusPropietario NumFinca="4308732" identificacion="315840790"/>
     <ConceptoCobroVersusPropiedad idcobro="5" NumFinca="6727257"/>
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="4308732"/>
-    <TransConsumo id="1" LecturaM3="336" descripcion="Lectura Mensual" NumFinca="1858970"/>
-    <TransConsumo id="1" LecturaM3="419" descripcion="Lectura Mensual" NumFinca="2101885"/>
+    <TransConsumo id="1" LecturaM3="336" descripcion="Cobro Mensual" NumFinca="1858970"/>
+    <TransConsumo id="1" LecturaM3="419" descripcion="Cobro Mensual" NumFinca="2101885"/>
     <TransConsumo id="2" LecturaM3="27" descripcion="Reclamo de cliente" NumFinca="2291223"/>
   </OperacionDia>
   <OperacionDia fecha="2020-03-14">
-    <TransConsumo id="1" LecturaM3="495" descripcion="Lectura Mensual" NumFinca="6722024"/>
-    <TransConsumo id="1" LecturaM3="416" descripcion="Lectura Mensual" NumFinca="5310895"/>
-    <TransConsumo id="1" LecturaM3="448" descripcion="Lectura Mensual" NumFinca="3443064"/>
-    <TransConsumo id="1" LecturaM3="422" descripcion="Lectura Mensual" NumFinca="7254630"/>
-    <TransConsumo id="1" LecturaM3="345" descripcion="Lectura Mensual" NumFinca="3901661"/>
-    <TransConsumo id="1" LecturaM3="394" descripcion="Lectura Mensual" NumFinca="6883678"/>
+    <TransConsumo id="1" LecturaM3="495" descripcion="Cobro Mensual" NumFinca="6722024"/>
+    <TransConsumo id="1" LecturaM3="416" descripcion="Cobro Mensual" NumFinca="5310895"/>
+    <TransConsumo id="1" LecturaM3="448" descripcion="Cobro Mensual" NumFinca="3443064"/>
+    <TransConsumo id="1" LecturaM3="422" descripcion="Cobro Mensual" NumFinca="7254630"/>
+    <TransConsumo id="1" LecturaM3="345" descripcion="Cobro Mensual" NumFinca="3901661"/>
+    <TransConsumo id="1" LecturaM3="394" descripcion="Cobro Mensual" NumFinca="6883678"/>
     <TransConsumo id="2" LecturaM3="33" descripcion="Reclamo de cliente" NumFinca="6736147"/>
     <Pago TipoRecibo="2" NumFinca="3178673"/>
     <Pago TipoRecibo="2" NumFinca="1424417"/>
@@ -1382,7 +1382,7 @@
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="4686808"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="8583828"/>
     <CambioPropiedad NumFinca="6527953" NuevoValor="22759449"/>
-    <TransConsumo id="1" LecturaM3="453" descripcion="Lectura Mensual" NumFinca="2287722"/>
+    <TransConsumo id="1" LecturaM3="453" descripcion="Cobro Mensual" NumFinca="2287722"/>
     <Pago TipoRecibo="6" NumFinca="7040783"/>
     <Pago TipoRecibo="6" NumFinca="1042185"/>
     <Pago TipoRecibo="6" NumFinca="4400689"/>
@@ -1469,9 +1469,9 @@
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="3146361"/>
     <CambioPropiedad NumFinca="5649015" NuevoValor="20682757"/>
     <CambioPropiedad NumFinca="2463803" NuevoValor="7369588"/>
-    <TransConsumo id="1" LecturaM3="499" descripcion="Lectura Mensual" NumFinca="5612982"/>
-    <TransConsumo id="1" LecturaM3="456" descripcion="Lectura Mensual" NumFinca="1667419"/>
-    <TransConsumo id="1" LecturaM3="432" descripcion="Lectura Mensual" NumFinca="1463009"/>
+    <TransConsumo id="1" LecturaM3="499" descripcion="Cobro Mensual" NumFinca="5612982"/>
+    <TransConsumo id="1" LecturaM3="456" descripcion="Cobro Mensual" NumFinca="1667419"/>
+    <TransConsumo id="1" LecturaM3="432" descripcion="Cobro Mensual" NumFinca="1463009"/>
     <TransConsumo id="2" LecturaM3="1" descripcion="Reclamo de cliente" NumFinca="6736147"/>
   </OperacionDia>
   <OperacionDia fecha="2020-03-19">
@@ -1479,9 +1479,9 @@
   <OperacionDia fecha="2020-03-20">
 	</OperacionDia>
   <OperacionDia fecha="2020-03-21">
-    <TransConsumo id="1" LecturaM3="335" descripcion="Lectura Mensual" NumFinca="2415723"/>
-    <TransConsumo id="1" LecturaM3="451" descripcion="Lectura Mensual" NumFinca="2405935"/>
-    <TransConsumo id="1" LecturaM3="428" descripcion="Lectura Mensual" NumFinca="2416612"/>
+    <TransConsumo id="1" LecturaM3="335" descripcion="Cobro Mensual" NumFinca="2415723"/>
+    <TransConsumo id="1" LecturaM3="451" descripcion="Cobro Mensual" NumFinca="2405935"/>
+    <TransConsumo id="1" LecturaM3="428" descripcion="Cobro Mensual" NumFinca="2416612"/>
     <TransConsumo id="3" LecturaM3="39" descripcion="Lectura errónea" NumFinca="1667419"/>
     <TransConsumo id="3" LecturaM3="43" descripcion="Lectura errónea" NumFinca="6722024"/>
     <TransConsumo id="3" LecturaM3="42" descripcion="Lectura errónea" NumFinca="5612982"/>
@@ -1523,9 +1523,9 @@
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="4188723"/>
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="5603734"/>
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="2675651"/>
-    <TransConsumo id="1" LecturaM3="470" descripcion="Lectura Mensual" NumFinca="3151260"/>
-    <TransConsumo id="1" LecturaM3="384" descripcion="Lectura Mensual" NumFinca="5333273"/>
-    <TransConsumo id="1" LecturaM3="472" descripcion="Lectura Mensual" NumFinca="1337841"/>
+    <TransConsumo id="1" LecturaM3="470" descripcion="Cobro Mensual" NumFinca="3151260"/>
+    <TransConsumo id="1" LecturaM3="384" descripcion="Cobro Mensual" NumFinca="5333273"/>
+    <TransConsumo id="1" LecturaM3="472" descripcion="Cobro Mensual" NumFinca="1337841"/>
     <TransConsumo id="2" LecturaM3="28" descripcion="Reclamo de cliente" NumFinca="4782873"/>
   </OperacionDia>
   <OperacionDia fecha="2020-03-25">
@@ -1587,21 +1587,10 @@
     <ConceptoCobroVersusPropiedad idcobro="3" NumFinca="1328804"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="8669107"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="1849959"/>
-    <TransConsumo id="1" LecturaM3="436" descripcion="Lectura Mensual" NumFinca="2425954"/>
-    <TransConsumo id="1" LecturaM3="449" descripcion="Lectura Mensual" NumFinca="7816509"/>
+    <TransConsumo id="1" LecturaM3="436" descripcion="Cobro Mensual" NumFinca="2425954"/>
+    <TransConsumo id="1" LecturaM3="449" descripcion="Cobro Mensual" NumFinca="7816509"/>
     <TransConsumo id="3" LecturaM3="39" descripcion="Lectura errónea" NumFinca="2405935"/>
-    <Pago TipoRecibo="1" NumFinca="1176180"/>
-    <Pago TipoRecibo="1" NumFinca="1394522"/>
-    <Pago TipoRecibo="1" NumFinca="1750401"/>
-    <Pago TipoRecibo="1" NumFinca="4121713"/>
-    <Pago TipoRecibo="1" NumFinca="1605224"/>
-    <Pago TipoRecibo="1" NumFinca="1423800"/>
-    <Pago TipoRecibo="1" NumFinca="1568495"/>
-    <Pago TipoRecibo="1" NumFinca="2291223"/>
     <Pago TipoRecibo="1" NumFinca="4782873"/>
-    <Pago TipoRecibo="1" NumFinca="6325448"/>
-    <Pago TipoRecibo="1" NumFinca="6766683"/>
-    <Pago TipoRecibo="1" NumFinca="6736147"/>
     <Pago TipoRecibo="1" NumFinca="1858970"/>
     <Pago TipoRecibo="1" NumFinca="2101885"/>
     <Pago TipoRecibo="1" NumFinca="6722024"/>
@@ -1658,8 +1647,8 @@
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="8209332"/>
   </OperacionDia>
   <OperacionDia fecha="2020-03-28">
-    <TransConsumo id="1" LecturaM3="362" descripcion="Lectura Mensual" NumFinca="1118180"/>
-    <TransConsumo id="1" LecturaM3="474" descripcion="Lectura Mensual" NumFinca="1596904"/>
+    <TransConsumo id="1" LecturaM3="362" descripcion="Cobro Mensual" NumFinca="1118180"/>
+    <TransConsumo id="1" LecturaM3="474" descripcion="Cobro Mensual" NumFinca="1596904"/>
   </OperacionDia>
   <OperacionDia fecha="2020-03-29">
 	</OperacionDia>
@@ -1797,7 +1786,7 @@
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="8927746"/>
     <ConceptoCobroVersusPropiedad idcobro="3" NumFinca="8200826"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="6247645"/>
-    <TransConsumo id="1" LecturaM3="462" descripcion="Lectura Mensual" NumFinca="5998719"/>
+    <TransConsumo id="1" LecturaM3="462" descripcion="Cobro Mensual" NumFinca="5998719"/>
     <TransConsumo id="3" LecturaM3="37" descripcion="Lectura errónea" NumFinca="3443064"/>
   </OperacionDia>
   <OperacionDia fecha="2020-04-04">
@@ -1842,13 +1831,13 @@
     <ConceptoCobroVersusPropiedad idcobro="3" NumFinca="9998670"/>
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="5828584"/>
     <CambioPropiedad NumFinca="2913367" NuevoValor="25024492"/>
-    <TransConsumo id="1" LecturaM3="415" descripcion="Lectura Mensual" NumFinca="4663528"/>
-    <TransConsumo id="1" LecturaM3="399" descripcion="Lectura Mensual" NumFinca="7494272"/>
-    <TransConsumo id="1" LecturaM3="459" descripcion="Lectura Mensual" NumFinca="5590052"/>
-    <TransConsumo id="1" LecturaM3="322" descripcion="Lectura Mensual" NumFinca="8271399"/>
-    <TransConsumo id="1" LecturaM3="423" descripcion="Lectura Mensual" NumFinca="6732750"/>
-    <TransConsumo id="1" LecturaM3="497" descripcion="Lectura Mensual" NumFinca="9324439"/>
-    <TransConsumo id="1" LecturaM3="453" descripcion="Lectura Mensual" NumFinca="5649015"/>
+    <TransConsumo id="1" LecturaM3="415" descripcion="Cobro Mensual" NumFinca="4663528"/>
+    <TransConsumo id="1" LecturaM3="399" descripcion="Cobro Mensual" NumFinca="7494272"/>
+    <TransConsumo id="1" LecturaM3="459" descripcion="Cobro Mensual" NumFinca="5590052"/>
+    <TransConsumo id="1" LecturaM3="322" descripcion="Cobro Mensual" NumFinca="8271399"/>
+    <TransConsumo id="1" LecturaM3="423" descripcion="Cobro Mensual" NumFinca="6732750"/>
+    <TransConsumo id="1" LecturaM3="497" descripcion="Cobro Mensual" NumFinca="9324439"/>
+    <TransConsumo id="1" LecturaM3="453" descripcion="Cobro Mensual" NumFinca="5649015"/>
   </OperacionDia>
   <OperacionDia fecha="2020-04-05">
     <Propiedad NumFinca="8434186" Valor="15014331" Direccion=" iglesia de Oreamuno, 891 m Noroeste."/>
@@ -1979,7 +1968,7 @@
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="4326248"/>
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="5342168"/>
     <CambioPropiedad NumFinca="9060769" NuevoValor="10688388"/>
-    <TransConsumo id="1" LecturaM3="325" descripcion="Lectura Mensual" NumFinca="3336538"/>
+    <TransConsumo id="1" LecturaM3="325" descripcion="Cobro Mensual" NumFinca="3336538"/>
   </OperacionDia>
   <OperacionDia fecha="2020-04-07">
     <Propiedad NumFinca="6706978" Valor="12360130" Direccion=" Río Camarón, 57 m Oeste."/>
@@ -2024,10 +2013,11 @@
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="3709169"/>
     <CambioPropiedad NumFinca="8394022" NuevoValor="21083124"/>
     <CambioPropiedad NumFinca="7810652" NuevoValor="21688488"/>
-    <TransConsumo id="1" LecturaM3="727" descripcion="Lectura Mensual" NumFinca="1176180"/>
-    <TransConsumo id="1" LecturaM3="905" descripcion="Lectura Mensual" NumFinca="1394522"/>
+    <TransConsumo id="1" LecturaM3="727" descripcion="Cobro Mensual" NumFinca="1176180"/>
+    <TransConsumo id="1" LecturaM3="905" descripcion="Cobro Mensual" NumFinca="1394522"/>
     <TransConsumo id="3" LecturaM3="40" descripcion="Lectura errónea" NumFinca="2425954"/>
     <Pago TipoRecibo="4" NumFinca="2246405"/>
+    <Pago TipoRecibo="4" NumFinca="1176180"/>
     <Pago TipoRecibo="4" NumFinca="1394522"/>
     <Pago TipoRecibo="4" NumFinca="4121713"/>
     <Pago TipoRecibo="4" NumFinca="1420570"/>
@@ -2220,14 +2210,14 @@
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="2681148"/>
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="5831967"/>
     <ConceptoCobroVersusPropiedad idcobro="5" NumFinca="6906071"/>
-    <TransConsumo id="1" LecturaM3="711" descripcion="Lectura Mensual" NumFinca="1750401"/>
-    <TransConsumo id="1" LecturaM3="872" descripcion="Lectura Mensual" NumFinca="4121713"/>
-    <TransConsumo id="1" LecturaM3="676" descripcion="Lectura Mensual" NumFinca="1605224"/>
-    <TransConsumo id="1" LecturaM3="925" descripcion="Lectura Mensual" NumFinca="1423800"/>
-    <TransConsumo id="1" LecturaM3="848" descripcion="Lectura Mensual" NumFinca="1568495"/>
-    <TransConsumo id="1" LecturaM3="974" descripcion="Lectura Mensual" NumFinca="2291223"/>
-    <TransConsumo id="1" LecturaM3="447" descripcion="Lectura Mensual" NumFinca="6832824"/>
-    <TransConsumo id="1" LecturaM3="403" descripcion="Lectura Mensual" NumFinca="8583838"/>
+    <TransConsumo id="1" LecturaM3="711" descripcion="Cobro Mensual" NumFinca="1750401"/>
+    <TransConsumo id="1" LecturaM3="872" descripcion="Cobro Mensual" NumFinca="4121713"/>
+    <TransConsumo id="1" LecturaM3="676" descripcion="Cobro Mensual" NumFinca="1605224"/>
+    <TransConsumo id="1" LecturaM3="925" descripcion="Cobro Mensual" NumFinca="1423800"/>
+    <TransConsumo id="1" LecturaM3="848" descripcion="Cobro Mensual" NumFinca="1568495"/>
+    <TransConsumo id="1" LecturaM3="974" descripcion="Cobro Mensual" NumFinca="2291223"/>
+    <TransConsumo id="1" LecturaM3="447" descripcion="Cobro Mensual" NumFinca="6832824"/>
+    <TransConsumo id="1" LecturaM3="403" descripcion="Cobro Mensual" NumFinca="8583838"/>
     <TransConsumo id="3" LecturaM3="37" descripcion="Lectura errónea" NumFinca="6325448"/>
     <TransConsumo id="2" LecturaM3="22" descripcion="Reclamo de cliente" NumFinca="2101885"/>
     <Pago TipoRecibo="8" NumFinca="1420570"/>
@@ -2276,9 +2266,9 @@
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="6753927"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="9766737"/>
     <ConceptoCobroVersusPropiedad idcobro="3" NumFinca="5883420"/>
-    <TransConsumo id="1" LecturaM3="945" descripcion="Lectura Mensual" NumFinca="4782873"/>
-    <TransConsumo id="1" LecturaM3="333" descripcion="Lectura Mensual" NumFinca="3159179"/>
-    <TransConsumo id="1" LecturaM3="361" descripcion="Lectura Mensual" NumFinca="3312213"/>
+    <TransConsumo id="1" LecturaM3="945" descripcion="Cobro Mensual" NumFinca="4782873"/>
+    <TransConsumo id="1" LecturaM3="333" descripcion="Cobro Mensual" NumFinca="3159179"/>
+    <TransConsumo id="1" LecturaM3="361" descripcion="Cobro Mensual" NumFinca="3312213"/>
   </OperacionDia>
   <OperacionDia fecha="2020-04-12">
     <Propiedad NumFinca="8656352" Valor="15731719" Direccion=" MasxMenos, 204 m Norte."/>
@@ -2323,10 +2313,10 @@
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="4065289"/>
     <CambioPropiedad NumFinca="1298862" NuevoValor="3475107"/>
     <CambioPropiedad NumFinca="3745857" NuevoValor="6854131"/>
-    <TransConsumo id="1" LecturaM3="771" descripcion="Lectura Mensual" NumFinca="6325448"/>
-    <TransConsumo id="1" LecturaM3="727" descripcion="Lectura Mensual" NumFinca="6766683"/>
-    <TransConsumo id="1" LecturaM3="820" descripcion="Lectura Mensual" NumFinca="6736147"/>
-    <TransConsumo id="1" LecturaM3="489" descripcion="Lectura Mensual" NumFinca="9365866"/>
+    <TransConsumo id="1" LecturaM3="771" descripcion="Cobro Mensual" NumFinca="6325448"/>
+    <TransConsumo id="1" LecturaM3="727" descripcion="Cobro Mensual" NumFinca="6766683"/>
+    <TransConsumo id="1" LecturaM3="820" descripcion="Cobro Mensual" NumFinca="6736147"/>
+    <TransConsumo id="1" LecturaM3="489" descripcion="Cobro Mensual" NumFinca="9365866"/>
     <TransConsumo id="3" LecturaM3="47" descripcion="Lectura errónea" NumFinca="1176180"/>
     <TransConsumo id="3" LecturaM3="30" descripcion="Lectura errónea" NumFinca="1118180"/>
     <Pago TipoRecibo="3" NumFinca="6526774"/>
@@ -2442,16 +2432,16 @@
     <ConceptoCobroVersusPropiedad idcobro="5" NumFinca="1983339"/>
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="9601548"/>
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="2121748"/>
-    <TransConsumo id="1" LecturaM3="768" descripcion="Lectura Mensual" NumFinca="1858970"/>
-    <TransConsumo id="1" LecturaM3="880" descripcion="Lectura Mensual" NumFinca="2101885"/>
+    <TransConsumo id="1" LecturaM3="768" descripcion="Cobro Mensual" NumFinca="1858970"/>
+    <TransConsumo id="1" LecturaM3="880" descripcion="Cobro Mensual" NumFinca="2101885"/>
   </OperacionDia>
   <OperacionDia fecha="2020-04-14">
-    <TransConsumo id="1" LecturaM3="963" descripcion="Lectura Mensual" NumFinca="6722024"/>
-    <TransConsumo id="1" LecturaM3="762" descripcion="Lectura Mensual" NumFinca="5310895"/>
-    <TransConsumo id="1" LecturaM3="912" descripcion="Lectura Mensual" NumFinca="3443064"/>
-    <TransConsumo id="1" LecturaM3="839" descripcion="Lectura Mensual" NumFinca="7254630"/>
-    <TransConsumo id="1" LecturaM3="753" descripcion="Lectura Mensual" NumFinca="3901661"/>
-    <TransConsumo id="1" LecturaM3="722" descripcion="Lectura Mensual" NumFinca="6883678"/>
+    <TransConsumo id="1" LecturaM3="963" descripcion="Cobro Mensual" NumFinca="6722024"/>
+    <TransConsumo id="1" LecturaM3="762" descripcion="Cobro Mensual" NumFinca="5310895"/>
+    <TransConsumo id="1" LecturaM3="912" descripcion="Cobro Mensual" NumFinca="3443064"/>
+    <TransConsumo id="1" LecturaM3="839" descripcion="Cobro Mensual" NumFinca="7254630"/>
+    <TransConsumo id="1" LecturaM3="753" descripcion="Cobro Mensual" NumFinca="3901661"/>
+    <TransConsumo id="1" LecturaM3="722" descripcion="Cobro Mensual" NumFinca="6883678"/>
     <TransConsumo id="3" LecturaM3="41" descripcion="Lectura errónea" NumFinca="7254630"/>
     <TransConsumo id="3" LecturaM3="3" descripcion="Lectura errónea" NumFinca="5612982"/>
     <Pago TipoRecibo="2" NumFinca="3178673"/>
@@ -2610,8 +2600,8 @@
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="6278640"/>
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="7369246"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="4473302"/>
-    <TransConsumo id="1" LecturaM3="341" descripcion="Lectura Mensual" NumFinca="9597151"/>
-    <TransConsumo id="1" LecturaM3="314" descripcion="Lectura Mensual" NumFinca="3745857"/>
+    <TransConsumo id="1" LecturaM3="341" descripcion="Cobro Mensual" NumFinca="9597151"/>
+    <TransConsumo id="1" LecturaM3="314" descripcion="Cobro Mensual" NumFinca="3745857"/>
   </OperacionDia>
   <OperacionDia fecha="2020-04-17">
     <Propiedad NumFinca="7129945" Valor="18248175" Direccion="Cuestillas, 283 m Sur."/>
@@ -2654,7 +2644,7 @@
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="8932418"/>
     <ConceptoCobroVersusPropiedad idcobro="3" NumFinca="2866079"/>
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="7308269"/>
-    <TransConsumo id="1" LecturaM3="940" descripcion="Lectura Mensual" NumFinca="2287722"/>
+    <TransConsumo id="1" LecturaM3="940" descripcion="Cobro Mensual" NumFinca="2287722"/>
     <Pago TipoRecibo="6" NumFinca="7040783"/>
     <Pago TipoRecibo="6" NumFinca="1042185"/>
     <Pago TipoRecibo="6" NumFinca="4400689"/>
@@ -2765,11 +2755,11 @@
     <ConceptoCobroVersusPropiedad idcobro="3" NumFinca="7718001"/>
     <ConceptoCobroVersusPropiedad idcobro="5" NumFinca="8722808"/>
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="2607709"/>
-    <TransConsumo id="1" LecturaM3="936" descripcion="Lectura Mensual" NumFinca="5612982"/>
-    <TransConsumo id="1" LecturaM3="814" descripcion="Lectura Mensual" NumFinca="1667419"/>
-    <TransConsumo id="1" LecturaM3="800" descripcion="Lectura Mensual" NumFinca="1463009"/>
-    <TransConsumo id="1" LecturaM3="431" descripcion="Lectura Mensual" NumFinca="9984034"/>
-    <TransConsumo id="1" LecturaM3="368" descripcion="Lectura Mensual" NumFinca="3146361"/>
+    <TransConsumo id="1" LecturaM3="936" descripcion="Cobro Mensual" NumFinca="5612982"/>
+    <TransConsumo id="1" LecturaM3="814" descripcion="Cobro Mensual" NumFinca="1667419"/>
+    <TransConsumo id="1" LecturaM3="800" descripcion="Cobro Mensual" NumFinca="1463009"/>
+    <TransConsumo id="1" LecturaM3="431" descripcion="Cobro Mensual" NumFinca="9984034"/>
+    <TransConsumo id="1" LecturaM3="368" descripcion="Cobro Mensual" NumFinca="3146361"/>
     <TransConsumo id="3" LecturaM3="75" descripcion="Lectura errónea" NumFinca="6325448"/>
     <TransConsumo id="2" LecturaM3="87" descripcion="Reclamo de cliente" NumFinca="1423800"/>
   </OperacionDia>
@@ -2859,9 +2849,9 @@
     <CambioPropiedad NumFinca="2962597" NuevoValor="3326730"/>
   </OperacionDia>
   <OperacionDia fecha="2020-04-21">
-    <TransConsumo id="1" LecturaM3="768" descripcion="Lectura Mensual" NumFinca="2415723"/>
-    <TransConsumo id="1" LecturaM3="825" descripcion="Lectura Mensual" NumFinca="2405935"/>
-    <TransConsumo id="1" LecturaM3="836" descripcion="Lectura Mensual" NumFinca="2416612"/>
+    <TransConsumo id="1" LecturaM3="768" descripcion="Cobro Mensual" NumFinca="2415723"/>
+    <TransConsumo id="1" LecturaM3="825" descripcion="Cobro Mensual" NumFinca="2405935"/>
+    <TransConsumo id="1" LecturaM3="836" descripcion="Cobro Mensual" NumFinca="2416612"/>
     <TransConsumo id="2" LecturaM3="84" descripcion="Reclamo de cliente" NumFinca="1394522"/>
   </OperacionDia>
   <OperacionDia fecha="2020-04-22">
@@ -2907,7 +2897,7 @@
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="7658053"/>
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="6947210"/>
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="4060041"/>
-    <TransConsumo id="1" LecturaM3="320" descripcion="Lectura Mensual" NumFinca="9483099"/>
+    <TransConsumo id="1" LecturaM3="320" descripcion="Cobro Mensual" NumFinca="9483099"/>
   </OperacionDia>
   <OperacionDia fecha="2020-04-24">
     <Propiedad NumFinca="2099652" Valor="28160387" Direccion="Bar las delicias, 114 m Oeste."/>
@@ -2950,11 +2940,11 @@
     <ConceptoCobroVersusPropiedad idcobro="5" NumFinca="3304352"/>
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="7806630"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="6813035"/>
-    <TransConsumo id="1" LecturaM3="913" descripcion="Lectura Mensual" NumFinca="3151260"/>
-    <TransConsumo id="1" LecturaM3="719" descripcion="Lectura Mensual" NumFinca="5333273"/>
-    <TransConsumo id="1" LecturaM3="911" descripcion="Lectura Mensual" NumFinca="1337841"/>
-    <TransConsumo id="1" LecturaM3="415" descripcion="Lectura Mensual" NumFinca="5603734"/>
-    <TransConsumo id="1" LecturaM3="371" descripcion="Lectura Mensual" NumFinca="2675651"/>
+    <TransConsumo id="1" LecturaM3="913" descripcion="Cobro Mensual" NumFinca="3151260"/>
+    <TransConsumo id="1" LecturaM3="719" descripcion="Cobro Mensual" NumFinca="5333273"/>
+    <TransConsumo id="1" LecturaM3="911" descripcion="Cobro Mensual" NumFinca="1337841"/>
+    <TransConsumo id="1" LecturaM3="415" descripcion="Cobro Mensual" NumFinca="5603734"/>
+    <TransConsumo id="1" LecturaM3="371" descripcion="Cobro Mensual" NumFinca="2675651"/>
   </OperacionDia>
   <OperacionDia fecha="2020-04-25">
     <Propiedad NumFinca="2060905" Valor="26694095" Direccion="Cementerio de Santa Rosa, 653 m Este."/>
@@ -3000,7 +2990,7 @@
     <CambioPropiedad NumFinca="3251421" NuevoValor="8511078"/>
     <CambioPropiedad NumFinca="8558350" NuevoValor="21314581"/>
     <CambioPropiedad NumFinca="4419192" NuevoValor="3018529"/>
-    <TransConsumo id="1" LecturaM3="417" descripcion="Lectura Mensual" NumFinca="9383952"/>
+    <TransConsumo id="1" LecturaM3="417" descripcion="Cobro Mensual" NumFinca="9383952"/>
   </OperacionDia>
   <OperacionDia fecha="2020-04-26">
     <Propiedad NumFinca="9718422" Valor="27348471" Direccion=" iglesia de Oreamuno, 465 m Oeste."/>
@@ -3043,20 +3033,9 @@
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="9221039"/>
     <ConceptoCobroVersusPropiedad idcobro="3" NumFinca="2541702"/>
     <ConceptoCobroVersusPropiedad idcobro="5" NumFinca="2992885"/>
-    <TransConsumo id="1" LecturaM3="753" descripcion="Lectura Mensual" NumFinca="2425954"/>
-    <TransConsumo id="1" LecturaM3="811" descripcion="Lectura Mensual" NumFinca="7816509"/>
-    <Pago TipoRecibo="1" NumFinca="1176180"/>
-    <Pago TipoRecibo="1" NumFinca="1394522"/>
-    <Pago TipoRecibo="1" NumFinca="1750401"/>
-    <Pago TipoRecibo="1" NumFinca="4121713"/>
-    <Pago TipoRecibo="1" NumFinca="1605224"/>
-    <Pago TipoRecibo="1" NumFinca="1423800"/>
-    <Pago TipoRecibo="1" NumFinca="1568495"/>
-    <Pago TipoRecibo="1" NumFinca="2291223"/>
+    <TransConsumo id="1" LecturaM3="753" descripcion="Cobro Mensual" NumFinca="2425954"/>
+    <TransConsumo id="1" LecturaM3="811" descripcion="Cobro Mensual" NumFinca="7816509"/>
     <Pago TipoRecibo="1" NumFinca="4782873"/>
-    <Pago TipoRecibo="1" NumFinca="6325448"/>
-    <Pago TipoRecibo="1" NumFinca="6766683"/>
-    <Pago TipoRecibo="1" NumFinca="6736147"/>
     <Pago TipoRecibo="1" NumFinca="1858970"/>
     <Pago TipoRecibo="1" NumFinca="2101885"/>
     <Pago TipoRecibo="1" NumFinca="6722024"/>
@@ -3184,8 +3163,8 @@
     <CambioPropiedad NumFinca="4366302" NuevoValor="31917684"/>
   </OperacionDia>
   <OperacionDia fecha="2020-04-28">
-    <TransConsumo id="1" LecturaM3="774" descripcion="Lectura Mensual" NumFinca="1118180"/>
-    <TransConsumo id="1" LecturaM3="826" descripcion="Lectura Mensual" NumFinca="1596904"/>
+    <TransConsumo id="1" LecturaM3="774" descripcion="Cobro Mensual" NumFinca="1118180"/>
+    <TransConsumo id="1" LecturaM3="826" descripcion="Cobro Mensual" NumFinca="1596904"/>
   </OperacionDia>
   <OperacionDia fecha="2020-04-29">
 	</OperacionDia>
@@ -3230,8 +3209,8 @@
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="1486922"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="8364362"/>
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="2295242"/>
-    <TransConsumo id="1" LecturaM3="324" descripcion="Lectura Mensual" NumFinca="5227673"/>
-    <TransConsumo id="1" LecturaM3="499" descripcion="Lectura Mensual" NumFinca="8394022"/>
+    <TransConsumo id="1" LecturaM3="324" descripcion="Cobro Mensual" NumFinca="5227673"/>
+    <TransConsumo id="1" LecturaM3="499" descripcion="Cobro Mensual" NumFinca="8394022"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-01">
     <Propiedad NumFinca="2145176" Valor="4524964" Direccion=" Fresh Markert, 917 m Sur."/>
@@ -3360,7 +3339,7 @@
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="2497661"/>
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="4351134"/>
     <CambioPropiedad NumFinca="9998670" NuevoValor="5558281"/>
-    <TransConsumo id="1" LecturaM3="836" descripcion="Lectura Mensual" NumFinca="5998719"/>
+    <TransConsumo id="1" LecturaM3="836" descripcion="Cobro Mensual" NumFinca="5998719"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-04">
     <Propiedad NumFinca="2138568" Valor="8976327" Direccion="Rio Azul, 449 m Noroeste."/>
@@ -3404,13 +3383,13 @@
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="6712929"/>
     <ConceptoCobroVersusPropiedad idcobro="3" NumFinca="5308786"/>
     <CambioPropiedad NumFinca="1328804" NuevoValor="12288659"/>
-    <TransConsumo id="1" LecturaM3="913" descripcion="Lectura Mensual" NumFinca="4663528"/>
-    <TransConsumo id="1" LecturaM3="878" descripcion="Lectura Mensual" NumFinca="7494272"/>
-    <TransConsumo id="1" LecturaM3="958" descripcion="Lectura Mensual" NumFinca="5590052"/>
-    <TransConsumo id="1" LecturaM3="704" descripcion="Lectura Mensual" NumFinca="8271399"/>
-    <TransConsumo id="1" LecturaM3="817" descripcion="Lectura Mensual" NumFinca="6732750"/>
-    <TransConsumo id="1" LecturaM3="966" descripcion="Lectura Mensual" NumFinca="9324439"/>
-    <TransConsumo id="1" LecturaM3="876" descripcion="Lectura Mensual" NumFinca="5649015"/>
+    <TransConsumo id="1" LecturaM3="913" descripcion="Cobro Mensual" NumFinca="4663528"/>
+    <TransConsumo id="1" LecturaM3="878" descripcion="Cobro Mensual" NumFinca="7494272"/>
+    <TransConsumo id="1" LecturaM3="958" descripcion="Cobro Mensual" NumFinca="5590052"/>
+    <TransConsumo id="1" LecturaM3="704" descripcion="Cobro Mensual" NumFinca="8271399"/>
+    <TransConsumo id="1" LecturaM3="817" descripcion="Cobro Mensual" NumFinca="6732750"/>
+    <TransConsumo id="1" LecturaM3="966" descripcion="Cobro Mensual" NumFinca="9324439"/>
+    <TransConsumo id="1" LecturaM3="876" descripcion="Cobro Mensual" NumFinca="5649015"/>
     <TransConsumo id="2" LecturaM3="3" descripcion="Reclamo de cliente" NumFinca="2405935"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-05">
@@ -3454,8 +3433,8 @@
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="4468106"/>
     <ConceptoCobroVersusPropiedad idcobro="5" NumFinca="6434085"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="6772528"/>
-    <TransConsumo id="1" LecturaM3="396" descripcion="Lectura Mensual" NumFinca="8434186"/>
-    <TransConsumo id="1" LecturaM3="310" descripcion="Lectura Mensual" NumFinca="9677981"/>
+    <TransConsumo id="1" LecturaM3="396" descripcion="Cobro Mensual" NumFinca="8434186"/>
+    <TransConsumo id="1" LecturaM3="310" descripcion="Cobro Mensual" NumFinca="9677981"/>
     <Pago TipoRecibo="5" NumFinca="4158692"/>
     <Pago TipoRecibo="5" NumFinca="9782331"/>
     <Pago TipoRecibo="5" NumFinca="2186347"/>
@@ -3575,9 +3554,9 @@
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="3949789"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="9927244"/>
     <ConceptoCobroVersusPropiedad idcobro="3" NumFinca="7361613"/>
-    <TransConsumo id="1" LecturaM3="685" descripcion="Lectura Mensual" NumFinca="3336538"/>
-    <TransConsumo id="1" LecturaM3="364" descripcion="Lectura Mensual" NumFinca="6450028"/>
-    <TransConsumo id="1" LecturaM3="478" descripcion="Lectura Mensual" NumFinca="1516510"/>
+    <TransConsumo id="1" LecturaM3="685" descripcion="Cobro Mensual" NumFinca="3336538"/>
+    <TransConsumo id="1" LecturaM3="364" descripcion="Cobro Mensual" NumFinca="6450028"/>
+    <TransConsumo id="1" LecturaM3="478" descripcion="Cobro Mensual" NumFinca="1516510"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-07">
     <Propiedad NumFinca="4535058" Valor="15137469" Direccion=" Maxi Pali, 579 m Este."/>
@@ -3620,13 +3599,14 @@
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="5813463"/>
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="3147915"/>
     <ConceptoCobroVersusPropiedad idcobro="5" NumFinca="9509622"/>
-    <TransConsumo id="1" LecturaM3="1032" descripcion="Lectura Mensual" NumFinca="1176180"/>
-    <TransConsumo id="1" LecturaM3="1327" descripcion="Lectura Mensual" NumFinca="1394522"/>
-    <TransConsumo id="1" LecturaM3="465" descripcion="Lectura Mensual" NumFinca="6706978"/>
-    <TransConsumo id="1" LecturaM3="339" descripcion="Lectura Mensual" NumFinca="7463111"/>
-    <TransConsumo id="1" LecturaM3="397" descripcion="Lectura Mensual" NumFinca="3709169"/>
+    <TransConsumo id="1" LecturaM3="1032" descripcion="Cobro Mensual" NumFinca="1176180"/>
+    <TransConsumo id="1" LecturaM3="1327" descripcion="Cobro Mensual" NumFinca="1394522"/>
+    <TransConsumo id="1" LecturaM3="465" descripcion="Cobro Mensual" NumFinca="6706978"/>
+    <TransConsumo id="1" LecturaM3="339" descripcion="Cobro Mensual" NumFinca="7463111"/>
+    <TransConsumo id="1" LecturaM3="397" descripcion="Cobro Mensual" NumFinca="3709169"/>
     <TransConsumo id="3" LecturaM3="31" descripcion="Lectura errónea" NumFinca="5310895"/>
     <Pago TipoRecibo="4" NumFinca="2246405"/>
+    <Pago TipoRecibo="4" NumFinca="1176180"/>
     <Pago TipoRecibo="4" NumFinca="1394522"/>
     <Pago TipoRecibo="4" NumFinca="4121713"/>
     <Pago TipoRecibo="4" NumFinca="1420570"/>
@@ -3780,10 +3760,10 @@
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="1668865"/>
     <ConceptoCobroVersusPropiedad idcobro="5" NumFinca="6438151"/>
     <CambioPropiedad NumFinca="8434186" NuevoValor="12786031"/>
-    <TransConsumo id="1" LecturaM3="400" descripcion="Lectura Mensual" NumFinca="3645908"/>
-    <TransConsumo id="1" LecturaM3="383" descripcion="Lectura Mensual" NumFinca="7820463"/>
-    <TransConsumo id="1" LecturaM3="494" descripcion="Lectura Mensual" NumFinca="2299692"/>
-    <TransConsumo id="1" LecturaM3="455" descripcion="Lectura Mensual" NumFinca="9459793"/>
+    <TransConsumo id="1" LecturaM3="400" descripcion="Cobro Mensual" NumFinca="3645908"/>
+    <TransConsumo id="1" LecturaM3="383" descripcion="Cobro Mensual" NumFinca="7820463"/>
+    <TransConsumo id="1" LecturaM3="494" descripcion="Cobro Mensual" NumFinca="2299692"/>
+    <TransConsumo id="1" LecturaM3="455" descripcion="Cobro Mensual" NumFinca="9459793"/>
     <TransConsumo id="2" LecturaM3="48" descripcion="Reclamo de cliente" NumFinca="6736147"/>
     <TransConsumo id="3" LecturaM3="62" descripcion="Lectura errónea" NumFinca="3336538"/>
     <TransConsumo id="3" LecturaM3="1" descripcion="Lectura errónea" NumFinca="2291223"/>
@@ -3830,9 +3810,9 @@
     <ConceptoCobroVersusPropiedad idcobro="5" NumFinca="5538941"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="7142670"/>
     <CambioPropiedad NumFinca="6720212" NuevoValor="13347049"/>
-    <TransConsumo id="1" LecturaM3="349" descripcion="Lectura Mensual" NumFinca="5426691"/>
-    <TransConsumo id="1" LecturaM3="324" descripcion="Lectura Mensual" NumFinca="5488897"/>
-    <TransConsumo id="1" LecturaM3="386" descripcion="Lectura Mensual" NumFinca="7200258"/>
+    <TransConsumo id="1" LecturaM3="349" descripcion="Cobro Mensual" NumFinca="5426691"/>
+    <TransConsumo id="1" LecturaM3="324" descripcion="Cobro Mensual" NumFinca="5488897"/>
+    <TransConsumo id="1" LecturaM3="386" descripcion="Cobro Mensual" NumFinca="7200258"/>
     <Pago TipoRecibo="7" NumFinca="1423800"/>
     <Pago TipoRecibo="7" NumFinca="1393022"/>
     <Pago TipoRecibo="7" NumFinca="1579482"/>
@@ -3880,15 +3860,15 @@
     <ConceptoCobroVersusPropiedad idcobro="3" NumFinca="2405525"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="6540501"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="6296537"/>
-    <TransConsumo id="1" LecturaM3="1159" descripcion="Lectura Mensual" NumFinca="1750401"/>
-    <TransConsumo id="1" LecturaM3="1183" descripcion="Lectura Mensual" NumFinca="4121713"/>
-    <TransConsumo id="1" LecturaM3="1152" descripcion="Lectura Mensual" NumFinca="1605224"/>
-    <TransConsumo id="1" LecturaM3="1231" descripcion="Lectura Mensual" NumFinca="1423800"/>
-    <TransConsumo id="1" LecturaM3="1214" descripcion="Lectura Mensual" NumFinca="1568495"/>
-    <TransConsumo id="1" LecturaM3="1365" descripcion="Lectura Mensual" NumFinca="2291223"/>
-    <TransConsumo id="1" LecturaM3="764" descripcion="Lectura Mensual" NumFinca="6832824"/>
-    <TransConsumo id="1" LecturaM3="812" descripcion="Lectura Mensual" NumFinca="8583838"/>
-    <TransConsumo id="1" LecturaM3="424" descripcion="Lectura Mensual" NumFinca="3099309"/>
+    <TransConsumo id="1" LecturaM3="1159" descripcion="Cobro Mensual" NumFinca="1750401"/>
+    <TransConsumo id="1" LecturaM3="1183" descripcion="Cobro Mensual" NumFinca="4121713"/>
+    <TransConsumo id="1" LecturaM3="1152" descripcion="Cobro Mensual" NumFinca="1605224"/>
+    <TransConsumo id="1" LecturaM3="1231" descripcion="Cobro Mensual" NumFinca="1423800"/>
+    <TransConsumo id="1" LecturaM3="1214" descripcion="Cobro Mensual" NumFinca="1568495"/>
+    <TransConsumo id="1" LecturaM3="1365" descripcion="Cobro Mensual" NumFinca="2291223"/>
+    <TransConsumo id="1" LecturaM3="764" descripcion="Cobro Mensual" NumFinca="6832824"/>
+    <TransConsumo id="1" LecturaM3="812" descripcion="Cobro Mensual" NumFinca="8583838"/>
+    <TransConsumo id="1" LecturaM3="424" descripcion="Cobro Mensual" NumFinca="3099309"/>
     <TransConsumo id="3" LecturaM3="72" descripcion="Lectura errónea" NumFinca="4663528"/>
     <TransConsumo id="2" LecturaM3="42" descripcion="Reclamo de cliente" NumFinca="9365866"/>
     <Pago TipoRecibo="8" NumFinca="1420570"/>
@@ -3937,11 +3917,22 @@
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="2657785"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="4716673"/>
     <ConceptoCobroVersusPropiedad idcobro="5" NumFinca="8079672"/>
-    <TransConsumo id="1" LecturaM3="1433" descripcion="Lectura Mensual" NumFinca="4782873"/>
-    <TransConsumo id="1" LecturaM3="754" descripcion="Lectura Mensual" NumFinca="3159179"/>
-    <TransConsumo id="1" LecturaM3="832" descripcion="Lectura Mensual" NumFinca="3312213"/>
-    <TransConsumo id="1" LecturaM3="440" descripcion="Lectura Mensual" NumFinca="5480590"/>
+    <TransConsumo id="1" LecturaM3="1433" descripcion="Cobro Mensual" NumFinca="4782873"/>
+    <TransConsumo id="1" LecturaM3="754" descripcion="Cobro Mensual" NumFinca="3159179"/>
+    <TransConsumo id="1" LecturaM3="832" descripcion="Cobro Mensual" NumFinca="3312213"/>
+    <TransConsumo id="1" LecturaM3="440" descripcion="Cobro Mensual" NumFinca="5480590"/>
     <TransConsumo id="3" LecturaM3="16" descripcion="Lectura errónea" NumFinca="5488897"/>
+    <Pago TipoRecibo="9" NumFinca="3107084"/>
+    <Pago TipoRecibo="9" NumFinca="1565045"/>
+    <Pago TipoRecibo="9" NumFinca="2346431"/>
+    <Pago TipoRecibo="9" NumFinca="2132441"/>
+    <Pago TipoRecibo="9" NumFinca="2346334"/>
+    <Pago TipoRecibo="9" NumFinca="2225118"/>
+    <Pago TipoRecibo="9" NumFinca="2520127"/>
+    <Pago TipoRecibo="9" NumFinca="3168593"/>
+    <Pago TipoRecibo="9" NumFinca="2201960"/>
+    <Pago TipoRecibo="9" NumFinca="3206723"/>
+    <Pago TipoRecibo="9" NumFinca="2512174"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-12">
     <Propiedad NumFinca="4791720" Valor="21549334" Direccion=" La fuente central, 392 m Este."/>
@@ -3985,12 +3976,12 @@
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="9755461"/>
     <ConceptoCobroVersusPropiedad idcobro="5" NumFinca="1157661"/>
     <CambioPropiedad NumFinca="9521893" NuevoValor="8064048"/>
-    <TransConsumo id="1" LecturaM3="1244" descripcion="Lectura Mensual" NumFinca="6325448"/>
-    <TransConsumo id="1" LecturaM3="1075" descripcion="Lectura Mensual" NumFinca="6766683"/>
-    <TransConsumo id="1" LecturaM3="1294" descripcion="Lectura Mensual" NumFinca="6736147"/>
-    <TransConsumo id="1" LecturaM3="898" descripcion="Lectura Mensual" NumFinca="9365866"/>
-    <TransConsumo id="1" LecturaM3="307" descripcion="Lectura Mensual" NumFinca="9652577"/>
-    <TransConsumo id="1" LecturaM3="409" descripcion="Lectura Mensual" NumFinca="4065289"/>
+    <TransConsumo id="1" LecturaM3="1244" descripcion="Cobro Mensual" NumFinca="6325448"/>
+    <TransConsumo id="1" LecturaM3="1075" descripcion="Cobro Mensual" NumFinca="6766683"/>
+    <TransConsumo id="1" LecturaM3="1294" descripcion="Cobro Mensual" NumFinca="6736147"/>
+    <TransConsumo id="1" LecturaM3="898" descripcion="Cobro Mensual" NumFinca="9365866"/>
+    <TransConsumo id="1" LecturaM3="307" descripcion="Cobro Mensual" NumFinca="9652577"/>
+    <TransConsumo id="1" LecturaM3="409" descripcion="Cobro Mensual" NumFinca="4065289"/>
     <TransConsumo id="3" LecturaM3="58" descripcion="Lectura errónea" NumFinca="1463009"/>
     <Pago TipoRecibo="3" NumFinca="6526774"/>
     <Pago TipoRecibo="3" NumFinca="2888543"/>
@@ -4142,8 +4133,8 @@
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="5016108"/>
     <ConceptoCobroVersusPropiedad idcobro="5" NumFinca="9248409"/>
     <ConceptoCobroVersusPropiedad idcobro="5" NumFinca="5656927"/>
-    <TransConsumo id="1" LecturaM3="1190" descripcion="Lectura Mensual" NumFinca="1858970"/>
-    <TransConsumo id="1" LecturaM3="1349" descripcion="Lectura Mensual" NumFinca="2101885"/>
+    <TransConsumo id="1" LecturaM3="1190" descripcion="Cobro Mensual" NumFinca="1858970"/>
+    <TransConsumo id="1" LecturaM3="1349" descripcion="Cobro Mensual" NumFinca="2101885"/>
     <TransConsumo id="3" LecturaM3="6" descripcion="Lectura errónea" NumFinca="6325448"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-14">
@@ -4188,12 +4179,12 @@
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="5225304"/>
     <ConceptoCobroVersusPropiedad idcobro="3" NumFinca="1252365"/>
     <CambioPropiedad NumFinca="3975668" NuevoValor="3430592"/>
-    <TransConsumo id="1" LecturaM3="1323" descripcion="Lectura Mensual" NumFinca="6722024"/>
-    <TransConsumo id="1" LecturaM3="1124" descripcion="Lectura Mensual" NumFinca="5310895"/>
-    <TransConsumo id="1" LecturaM3="1276" descripcion="Lectura Mensual" NumFinca="3443064"/>
-    <TransConsumo id="1" LecturaM3="1322" descripcion="Lectura Mensual" NumFinca="7254630"/>
-    <TransConsumo id="1" LecturaM3="1144" descripcion="Lectura Mensual" NumFinca="3901661"/>
-    <TransConsumo id="1" LecturaM3="1126" descripcion="Lectura Mensual" NumFinca="6883678"/>
+    <TransConsumo id="1" LecturaM3="1323" descripcion="Cobro Mensual" NumFinca="6722024"/>
+    <TransConsumo id="1" LecturaM3="1124" descripcion="Cobro Mensual" NumFinca="5310895"/>
+    <TransConsumo id="1" LecturaM3="1276" descripcion="Cobro Mensual" NumFinca="3443064"/>
+    <TransConsumo id="1" LecturaM3="1322" descripcion="Cobro Mensual" NumFinca="7254630"/>
+    <TransConsumo id="1" LecturaM3="1144" descripcion="Cobro Mensual" NumFinca="3901661"/>
+    <TransConsumo id="1" LecturaM3="1126" descripcion="Cobro Mensual" NumFinca="6883678"/>
     <Pago TipoRecibo="2" NumFinca="3178673"/>
     <Pago TipoRecibo="2" NumFinca="1424417"/>
     <Pago TipoRecibo="2" NumFinca="1176180"/>
@@ -4350,8 +4341,8 @@
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="2119681"/>
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="3344511"/>
     <CambioPropiedad NumFinca="7816509" NuevoValor="3186704"/>
-    <TransConsumo id="1" LecturaM3="366" descripcion="Lectura Mensual" NumFinca="1103822"/>
-    <TransConsumo id="1" LecturaM3="453" descripcion="Lectura Mensual" NumFinca="8077121"/>
+    <TransConsumo id="1" LecturaM3="366" descripcion="Cobro Mensual" NumFinca="1103822"/>
+    <TransConsumo id="1" LecturaM3="453" descripcion="Cobro Mensual" NumFinca="8077121"/>
     <TransConsumo id="2" LecturaM3="52" descripcion="Reclamo de cliente" NumFinca="1667419"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-16">
@@ -4395,9 +4386,9 @@
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="4005318"/>
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="4708081"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="9400306"/>
-    <TransConsumo id="1" LecturaM3="699" descripcion="Lectura Mensual" NumFinca="9597151"/>
-    <TransConsumo id="1" LecturaM3="771" descripcion="Lectura Mensual" NumFinca="3745857"/>
-    <TransConsumo id="1" LecturaM3="328" descripcion="Lectura Mensual" NumFinca="6278640"/>
+    <TransConsumo id="1" LecturaM3="699" descripcion="Cobro Mensual" NumFinca="9597151"/>
+    <TransConsumo id="1" LecturaM3="771" descripcion="Cobro Mensual" NumFinca="3745857"/>
+    <TransConsumo id="1" LecturaM3="328" descripcion="Cobro Mensual" NumFinca="6278640"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-17">
     <Propiedad NumFinca="4208023" Valor="22744514" Direccion=" Iglecia Los capuchinos, 360 m Sur."/>
@@ -4440,7 +4431,7 @@
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="4661931"/>
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="8434486"/>
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="8164463"/>
-    <TransConsumo id="1" LecturaM3="1275" descripcion="Lectura Mensual" NumFinca="2287722"/>
+    <TransConsumo id="1" LecturaM3="1275" descripcion="Cobro Mensual" NumFinca="2287722"/>
     <Pago TipoRecibo="6" NumFinca="7040783"/>
     <Pago TipoRecibo="6" NumFinca="1042185"/>
     <Pago TipoRecibo="6" NumFinca="4400689"/>
@@ -4596,13 +4587,13 @@
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="4643900"/>
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="5649097"/>
     <CambioPropiedad NumFinca="8364952" NuevoValor="6436961"/>
-    <TransConsumo id="1" LecturaM3="1385" descripcion="Lectura Mensual" NumFinca="5612982"/>
-    <TransConsumo id="1" LecturaM3="1203" descripcion="Lectura Mensual" NumFinca="1667419"/>
-    <TransConsumo id="1" LecturaM3="1253" descripcion="Lectura Mensual" NumFinca="1463009"/>
-    <TransConsumo id="1" LecturaM3="822" descripcion="Lectura Mensual" NumFinca="9984034"/>
-    <TransConsumo id="1" LecturaM3="810" descripcion="Lectura Mensual" NumFinca="3146361"/>
-    <TransConsumo id="1" LecturaM3="496" descripcion="Lectura Mensual" NumFinca="1693614"/>
-    <TransConsumo id="1" LecturaM3="486" descripcion="Lectura Mensual" NumFinca="5869245"/>
+    <TransConsumo id="1" LecturaM3="1385" descripcion="Cobro Mensual" NumFinca="5612982"/>
+    <TransConsumo id="1" LecturaM3="1203" descripcion="Cobro Mensual" NumFinca="1667419"/>
+    <TransConsumo id="1" LecturaM3="1253" descripcion="Cobro Mensual" NumFinca="1463009"/>
+    <TransConsumo id="1" LecturaM3="822" descripcion="Cobro Mensual" NumFinca="9984034"/>
+    <TransConsumo id="1" LecturaM3="810" descripcion="Cobro Mensual" NumFinca="3146361"/>
+    <TransConsumo id="1" LecturaM3="496" descripcion="Cobro Mensual" NumFinca="1693614"/>
+    <TransConsumo id="1" LecturaM3="486" descripcion="Cobro Mensual" NumFinca="5869245"/>
     <TransConsumo id="3" LecturaM3="70" descripcion="Lectura errónea" NumFinca="2291223"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-19">
@@ -4647,9 +4638,9 @@
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="6326581"/>
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="7785531"/>
     <CambioPropiedad NumFinca="4203725" NuevoValor="95926004"/>
-    <TransConsumo id="1" LecturaM3="385" descripcion="Lectura Mensual" NumFinca="1798133"/>
-    <TransConsumo id="1" LecturaM3="389" descripcion="Lectura Mensual" NumFinca="2154272"/>
-    <TransConsumo id="1" LecturaM3="356" descripcion="Lectura Mensual" NumFinca="4932823"/>
+    <TransConsumo id="1" LecturaM3="385" descripcion="Cobro Mensual" NumFinca="1798133"/>
+    <TransConsumo id="1" LecturaM3="389" descripcion="Cobro Mensual" NumFinca="2154272"/>
+    <TransConsumo id="1" LecturaM3="356" descripcion="Cobro Mensual" NumFinca="4932823"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-20">
     <Propiedad NumFinca="1613299" Valor="18644710" Direccion="El Alto, 31 m Este."/>
@@ -4693,9 +4684,9 @@
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="7914525"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="1893981"/>
     <CambioPropiedad NumFinca="6526774" NuevoValor="15264230"/>
-    <TransConsumo id="1" LecturaM3="482" descripcion="Lectura Mensual" NumFinca="8076511"/>
-    <TransConsumo id="1" LecturaM3="436" descripcion="Lectura Mensual" NumFinca="8370396"/>
-    <TransConsumo id="1" LecturaM3="488" descripcion="Lectura Mensual" NumFinca="6342713"/>
+    <TransConsumo id="1" LecturaM3="482" descripcion="Cobro Mensual" NumFinca="8076511"/>
+    <TransConsumo id="1" LecturaM3="436" descripcion="Cobro Mensual" NumFinca="8370396"/>
+    <TransConsumo id="1" LecturaM3="488" descripcion="Cobro Mensual" NumFinca="6342713"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-21">
     <Propiedad NumFinca="3825764" Valor="12234952" Direccion=" Central Electrica, 30 m Norte."/>
@@ -4738,9 +4729,9 @@
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="1532131"/>
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="7636125"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="9838726"/>
-    <TransConsumo id="1" LecturaM3="1242" descripcion="Lectura Mensual" NumFinca="2415723"/>
-    <TransConsumo id="1" LecturaM3="1149" descripcion="Lectura Mensual" NumFinca="2405935"/>
-    <TransConsumo id="1" LecturaM3="1176" descripcion="Lectura Mensual" NumFinca="2416612"/>
+    <TransConsumo id="1" LecturaM3="1242" descripcion="Cobro Mensual" NumFinca="2415723"/>
+    <TransConsumo id="1" LecturaM3="1149" descripcion="Cobro Mensual" NumFinca="2405935"/>
+    <TransConsumo id="1" LecturaM3="1176" descripcion="Cobro Mensual" NumFinca="2416612"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-22">
     <Propiedad NumFinca="2328793" Valor="20613169" Direccion="San Felipe, 99 m Oeste."/>
@@ -4825,8 +4816,8 @@
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="7075605"/>
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="3558141"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="2152231"/>
-    <TransConsumo id="1" LecturaM3="685" descripcion="Lectura Mensual" NumFinca="9483099"/>
-    <TransConsumo id="1" LecturaM3="428" descripcion="Lectura Mensual" NumFinca="4060041"/>
+    <TransConsumo id="1" LecturaM3="685" descripcion="Cobro Mensual" NumFinca="9483099"/>
+    <TransConsumo id="1" LecturaM3="428" descripcion="Cobro Mensual" NumFinca="4060041"/>
     <TransConsumo id="2" LecturaM3="87" descripcion="Reclamo de cliente" NumFinca="2287722"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-24">
@@ -4870,11 +4861,11 @@
     <ConceptoCobroVersusPropiedad idcobro="3" NumFinca="8345509"/>
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="4071017"/>
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="4058539"/>
-    <TransConsumo id="1" LecturaM3="1387" descripcion="Lectura Mensual" NumFinca="3151260"/>
-    <TransConsumo id="1" LecturaM3="1196" descripcion="Lectura Mensual" NumFinca="5333273"/>
-    <TransConsumo id="1" LecturaM3="1270" descripcion="Lectura Mensual" NumFinca="1337841"/>
-    <TransConsumo id="1" LecturaM3="797" descripcion="Lectura Mensual" NumFinca="5603734"/>
-    <TransConsumo id="1" LecturaM3="719" descripcion="Lectura Mensual" NumFinca="2675651"/>
+    <TransConsumo id="1" LecturaM3="1387" descripcion="Cobro Mensual" NumFinca="3151260"/>
+    <TransConsumo id="1" LecturaM3="1196" descripcion="Cobro Mensual" NumFinca="5333273"/>
+    <TransConsumo id="1" LecturaM3="1270" descripcion="Cobro Mensual" NumFinca="1337841"/>
+    <TransConsumo id="1" LecturaM3="797" descripcion="Cobro Mensual" NumFinca="5603734"/>
+    <TransConsumo id="1" LecturaM3="719" descripcion="Cobro Mensual" NumFinca="2675651"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-25">
     <Propiedad NumFinca="3483977" Valor="9661623" Direccion="Ciruelas, 880 m Norte."/>
@@ -4917,11 +4908,11 @@
     <ConceptoCobroVersusPropiedad idcobro="3" NumFinca="5945180"/>
     <ConceptoCobroVersusPropiedad idcobro="5" NumFinca="9185218"/>
     <ConceptoCobroVersusPropiedad idcobro="5" NumFinca="7105680"/>
-    <TransConsumo id="1" LecturaM3="777" descripcion="Lectura Mensual" NumFinca="9383952"/>
-    <TransConsumo id="1" LecturaM3="469" descripcion="Lectura Mensual" NumFinca="2060905"/>
-    <TransConsumo id="1" LecturaM3="432" descripcion="Lectura Mensual" NumFinca="3131064"/>
-    <TransConsumo id="1" LecturaM3="426" descripcion="Lectura Mensual" NumFinca="5973252"/>
-    <TransConsumo id="1" LecturaM3="496" descripcion="Lectura Mensual" NumFinca="1872614"/>
+    <TransConsumo id="1" LecturaM3="777" descripcion="Cobro Mensual" NumFinca="9383952"/>
+    <TransConsumo id="1" LecturaM3="469" descripcion="Cobro Mensual" NumFinca="2060905"/>
+    <TransConsumo id="1" LecturaM3="432" descripcion="Cobro Mensual" NumFinca="3131064"/>
+    <TransConsumo id="1" LecturaM3="426" descripcion="Cobro Mensual" NumFinca="5973252"/>
+    <TransConsumo id="1" LecturaM3="496" descripcion="Cobro Mensual" NumFinca="1872614"/>
     <TransConsumo id="3" LecturaM3="62" descripcion="Lectura errónea" NumFinca="3901661"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-26">
@@ -4966,20 +4957,20 @@
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="1511992"/>
     <ConceptoCobroVersusPropiedad idcobro="2" NumFinca="2307454"/>
     <CambioPropiedad NumFinca="7090316" NuevoValor="29710023"/>
-    <TransConsumo id="1" LecturaM3="1094" descripcion="Lectura Mensual" NumFinca="2425954"/>
-    <TransConsumo id="1" LecturaM3="1279" descripcion="Lectura Mensual" NumFinca="7816509"/>
-    <Pago TipoRecibo="1" NumFinca="1176180"/>
-    <Pago TipoRecibo="1" NumFinca="1394522"/>
-    <Pago TipoRecibo="1" NumFinca="1750401"/>
-    <Pago TipoRecibo="1" NumFinca="4121713"/>
-    <Pago TipoRecibo="1" NumFinca="1605224"/>
-    <Pago TipoRecibo="1" NumFinca="1423800"/>
-    <Pago TipoRecibo="1" NumFinca="1568495"/>
-    <Pago TipoRecibo="1" NumFinca="2291223"/>
+    <TransConsumo id="1" LecturaM3="1094" descripcion="Cobro Mensual" NumFinca="2425954"/>
+    <TransConsumo id="1" LecturaM3="1279" descripcion="Cobro Mensual" NumFinca="7816509"/>
+    <Pago TipoRecibo="10" NumFinca="1176180"/>
+    <Pago TipoRecibo="10" NumFinca="1394522"/>
+    <Pago TipoRecibo="10" NumFinca="1750401"/>
+    <Pago TipoRecibo="10" NumFinca="4121713"/>
+    <Pago TipoRecibo="10" NumFinca="1605224"/>
+    <Pago TipoRecibo="10" NumFinca="1423800"/>
+    <Pago TipoRecibo="10" NumFinca="1568495"/>
+    <Pago TipoRecibo="10" NumFinca="2291223"/>
     <Pago TipoRecibo="1" NumFinca="4782873"/>
-    <Pago TipoRecibo="1" NumFinca="6325448"/>
-    <Pago TipoRecibo="1" NumFinca="6766683"/>
-    <Pago TipoRecibo="1" NumFinca="6736147"/>
+    <Pago TipoRecibo="10" NumFinca="6325448"/>
+    <Pago TipoRecibo="10" NumFinca="6766683"/>
+    <Pago TipoRecibo="10" NumFinca="6736147"/>
     <Pago TipoRecibo="1" NumFinca="1858970"/>
     <Pago TipoRecibo="1" NumFinca="2101885"/>
     <Pago TipoRecibo="1" NumFinca="6722024"/>
@@ -5146,8 +5137,8 @@
     <ConceptoCobroVersusPropiedad idcobro="1" NumFinca="3970740"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="9044296"/>
     <ConceptoCobroVersusPropiedad idcobro="3" NumFinca="9909406"/>
-    <TransConsumo id="1" LecturaM3="348" descripcion="Lectura Mensual" NumFinca="2666223"/>
-    <TransConsumo id="1" LecturaM3="382" descripcion="Lectura Mensual" NumFinca="1128583"/>
+    <TransConsumo id="1" LecturaM3="348" descripcion="Cobro Mensual" NumFinca="2666223"/>
+    <TransConsumo id="1" LecturaM3="382" descripcion="Cobro Mensual" NumFinca="1128583"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-28">
     <Propiedad NumFinca="9407324" Valor="3018442" Direccion="Hacienda Vieja, 828 m Sur."/>
@@ -5191,8 +5182,8 @@
     <ConceptoCobroVersusPropiedad idcobro="4" NumFinca="5759955"/>
     <ConceptoCobroVersusPropiedad idcobro="3" NumFinca="3158806"/>
     <CambioPropiedad NumFinca="5680609" NuevoValor="26046506"/>
-    <TransConsumo id="1" LecturaM3="1117" descripcion="Lectura Mensual" NumFinca="1118180"/>
-    <TransConsumo id="1" LecturaM3="1182" descripcion="Lectura Mensual" NumFinca="1596904"/>
+    <TransConsumo id="1" LecturaM3="1117" descripcion="Cobro Mensual" NumFinca="1118180"/>
+    <TransConsumo id="1" LecturaM3="1182" descripcion="Cobro Mensual" NumFinca="1596904"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-29">
     <Propiedad NumFinca="4525718" Valor="4416143" Direccion="Iglesia Católica de Cartago Norte, 533 m Sureste."/>
@@ -5279,12 +5270,8 @@
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="1957741"/>
     <ConceptoCobroVersusPropiedad idcobro="6" NumFinca="1033562"/>
     <CambioPropiedad NumFinca="6404248" NuevoValor="6948674"/>
-    <TransConsumo id="1" LecturaM3="759" descripcion="Lectura Mensual" NumFinca="5227673"/>
-    <TransConsumo id="1" LecturaM3="999" descripcion="Lectura Mensual" NumFinca="8394022"/>
-    <Pago TipoRecibo="4" NumFinca="1176180"/>
-    <Pago TipoRecibo="4" NumFinca="1176180"/>
-    <Pago TipoRecibo="4" NumFinca="1176180"/>
-    <Pago TipoRecibo="6" NumFinca="1176180"/>
+    <TransConsumo id="1" LecturaM3="759" descripcion="Cobro Mensual" NumFinca="5227673"/>
+    <TransConsumo id="1" LecturaM3="999" descripcion="Cobro Mensual" NumFinca="8394022"/>
   </OperacionDia>
   <OperacionDia fecha="2020-05-31">
     <Propiedad NumFinca="6433951" Valor="22030334" Direccion="Rio Azul, 154 m Sur."/>

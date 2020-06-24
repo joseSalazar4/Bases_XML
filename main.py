@@ -37,7 +37,7 @@ def modificarArchivo():
 
     diccionarioCobroFinca = {}
     OperacionesDiaList = root.  findall('OperacionDia')
-    fechasCobro = [ "26", "14", "12", "07", "05", "17", "09",  "10", "05"]
+    fechasCobro = ["26", "14", "12", "07", "05", "17", "09",  "10", "05"]
     for operacionDia in OperacionesDiaList:
         listaFincasNuevas = []
         for ccCobro in operacionDia.iter('ConceptoCobroVersusPropiedad'):
