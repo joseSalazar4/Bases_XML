@@ -27,7 +27,7 @@ def modificarArchivo():
 
     # tree = et.parse('Op_TESTING.xml', parser)
 
-    tree = et.parse('output.xml', parser)
+    tree = et.parse('output2.xml', parser)
     root = tree.getroot()
 
     # Buscamos Fincas y su valor
@@ -35,31 +35,39 @@ def modificarArchivo():
     listaActualMes = []
     mes = "2"
 
-    # Buscamos Fincas y su valor
-    matrizFinca = []
-    listaFechas = []
+    diccionarioCobroFinca = {}
+    OperacionesDiaList = root.  findall('OperacionDia')
+    fechasCobro = [ "26", "14", "12", "07", "05", "17", "09",  "10", "05"]
+    for operacionDia in OperacionesDiaList:
+        listaFincasNuevas = []
+        for ccCobro in operacionDia.iter('ConceptoCobroVersusPropiedad'):
+            cobro = ccCobro.get('idcobro')
+            propiedad = ccCobro.get('NumFinca')
+            listaFincasNuevas.append(propiedad)
+            listaFincaCobro = diccionarioCobroFinca.get(cobro)
+            if listaFincaCobro is None:
+                diccionarioCobroFinca[cobro] = [propiedad]
+            else:
+                listaFincaCobro.append(propiedad)
+                diccionarioCobroFinca[cobro] = listaFincaCobro.copy()
 
-    for operacionDia in root.findall('OperacionDia'):
+        diaActual = ""
         fecha = operacionDia.get('fecha')
-        listaFechas.append(fecha)
-
-        for transConsumo in operacionDia.iter('TransConsumo'):
-            valorM3 = transConsumo.get('LecturaM3')
-            propiedad = transConsumo.get('NumFinca')
-            matrizFinca.append([propiedad, valorM3])
-            fechaDeCambio = listaFechas[randint(0, len(listaFechas) - 1)]
-
-            if randint(1, 100) > 80 and len(matrizFinca) > 1:
-                #CHeck corte y eso 
-                tipo = "ESTO DEBE SER NUMERO"
-                numeroFinca = randint(1, len(matrizFinca) - 1)
-                if numeroFinca == propiedad:
-                    break
-                fincaElegida = matrizFinca.pop(numeroFinca)
-                lectura = int(fincaElegida[1])
-                fincaElegida[1] = str((randint(lectura // 20, lectura // 10)))
-                cambioFinca = et.Element("Pago", TipoRecibo=str(tipo),NumFinca=fincaElegida[0])
+        diaActual += fecha[-2]
+        diaActual += fecha[-1]
+        if diaActual in fechasCobro and fecha[6] != "2":
+            tiposCobro = fechasCobro.index(diaActual)
+            tiposCobro = str(tiposCobro+1)
+            fincasPorPagar = diccionarioCobroFinca.get(tiposCobro)
+        else:
+            continue
+        for finca in fincasPorPagar:
+            if finca not in listaFincasNuevas:
+                cambioFinca = et.Element("Pago", TipoRecibo=tiposCobro, NumFinca=finca)
                 operacionDia.insert(len(operacionDia), cambioFinca)
+
+        #cambioFinca = et.Element("Pago", TipoRecibo=, NumFinca=fincaElegida[0])
+        #operacionDia.insert(len(operacionDia), cambioFinca)
 
     """
     for operacionDia in root.findall('OperacionDia'):
@@ -167,13 +175,13 @@ def modificarArchivo():
                                      NumFinca=str(propiedad[0]))
             nodoOperacion.insert(len(nodoOperacion), cambioFinca)
 
-    """
     # Esto genera el archivo
     s = et.tostring(root, pretty_print=True)
     print(s.decode())
     print("termine")
+    """
     # Esribir
-    tree.write('output2.xml',  encoding='utf-8', pretty_print=True)
+    tree.write('output3.xml', encoding='utf-8', pretty_print=True)
 
 
 modificarArchivo()
